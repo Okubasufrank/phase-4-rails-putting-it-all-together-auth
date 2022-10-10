@@ -31,6 +31,9 @@ group :development do
   gem 'foreman', '~> 0.87'
 end
 
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+
+
 group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
 end
